@@ -48,13 +48,14 @@ def main():
     )
     
     st.markdown(
-        """
-        **Welcome to GianBot!**  
-        I'm an AI-powered chatbot designed to help you find accurate information on Gian Marco Innocenti!
-        
-        ---
-        """
-    )
+    """
+    **Welcome to GianBot!**  
+    I'm an AI-powered chatbot built using the Deep Seek model, designed to help you uncover detailed and reliable information about Gian Marco Innocenti. Whether you're looking into his background, achievements, or insights into his work, I provide context-specific answers drawn from carefully curated data.
+
+    ---
+    """
+)
+
 
     if "chain" not in st.session_state:
         st.session_state.chain, st.session_state.data, st.session_state.template = initialize_chain()
