@@ -2,6 +2,9 @@
 
 Welcome to the **GianBOT Deep Seek Personal Chatbot** repository. This project is a demonstration of how to integrate and fine-tune large language models (LLMs) for small, targeted tasks, showcasing advanced API integrations and prompt engineering techniques.
 
+*I decided to build this project after watching the video [Build a Simple Chatbot with DeepSeek – Easy Tutorial](https://www.youtube.com/watch?v=rfH6f1U4_kE) by Tech Watt.*
+
+
 ## Overview
 
 **GianBOT** is an AI-powered chatbot built on the Deep Seek model (derived from LLaMA 70B). It is fine-tuned to provide detailed and accurate information about Gian Marco Innocenti by leveraging a carefully curated dataset. The chatbot uses a streamlined API-based approach, making it an excellent example of adapting powerful LLMs to specific, context-driven applications.
