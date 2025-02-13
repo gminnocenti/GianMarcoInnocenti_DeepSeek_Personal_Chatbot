@@ -23,7 +23,7 @@ GianBOT-DeepSeek-Chatbot/
 ├── requirements.txt     # List of required Python packages
 ├── README.md            # Project documentation
 └── .env                 # Environment variables (e.g., API keys)
-
+```
 ## Deployment Instructions
 
 Follow these steps to deploy your own version of the GianBOT Deep Seek Personal Chatbot:
