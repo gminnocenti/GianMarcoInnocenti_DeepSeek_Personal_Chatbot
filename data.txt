@@ -70,6 +70,18 @@ Responses:
 Context:
   - 
 
+Tag: golf
+Patterns:
+  - what's my golf handicap?
+  - how far do I hit my drive?
+  - tell me my golf stats
+  - what are my golf stats?
+  - give me my golf stats
+Responses:
+  - I have a +1 handicap and I hit my drive 300 yards.
+Context:
+  -
+  
 Tag: Applaudo
 Patterns:
   - Give me a description of Gian Marco's role in Applaudo
