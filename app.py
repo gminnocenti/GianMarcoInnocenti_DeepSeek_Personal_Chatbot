@@ -8,8 +8,8 @@ from langchain_community.document_loaders import TextLoader
 
 def initialize_chain():
     load_dotenv()
-    api_key = os.getenv('key')
-    
+    #api_key = os.getenv('key')
+    api_key=st.secrets["KEY"]
     model = "deepseek-r1-distill-llama-70b"
     deepseek = ChatGroq(api_key=api_key, model_name=model)
 
